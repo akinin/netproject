@@ -37,7 +37,7 @@
         </Setter>
     </Style>
 
-    <Style x:Key="VS" TargetType="{x:Type Button}">
+    <Style x:Key="Button" TargetType="{x:Type Button}">
         <Setter Property="Focusable" Value="false" />
         <Setter Property="Template">
             <Setter.Value>
@@ -47,7 +47,7 @@
                             x:Name="PART_border"
                             Background="Transparent"
                             />
-                        <ContentPresenter />
+                        <ContentPresenter Width="Auto" Height="Auto" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
