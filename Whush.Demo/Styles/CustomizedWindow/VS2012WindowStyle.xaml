@@ -47,7 +47,7 @@
                             x:Name="PART_border"
                             Background="Transparent"
                             />
-                        <ContentPresenter Width="Auto" Height="Auto" />
+                        <ContentPresenter Width="Auto" Height="Auto" HorizontalAlignment="Center" VerticalAlignment="Center" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
